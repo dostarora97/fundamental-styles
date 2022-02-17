@@ -117,12 +117,12 @@ $block: #{$fd-namespace}-menu;
     border-radius: 0;
     background-color: var(--sapList_Background);
 
-    &:first-child {
+    &:first-of-type {
       border-top-right-radius: $fd-menu-border-radius;
       border-top-left-radius: $fd-menu-border-radius;
     }
 
-    &:last-child {
+    &:last-of-type {
       border-bottom-right-radius: $fd-menu-border-radius;
       border-bottom-left-radius: $fd-menu-border-radius;
     }
